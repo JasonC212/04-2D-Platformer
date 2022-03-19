@@ -1,13 +1,20 @@
-# 04-2D-Platformer
-Context and date
+# 2D-Platformer-Character
 
-Description
+A somewhat-generic character (including animations and state machine) appropriate for a 2D platformer built in Godot. Includes test level.
 
 ## Implementation
-Which features you included
+Built using Godot 3.2.3
+
+The player sprite is adaptated from [MV Platformer Male](https://opengameart.org/content/mv-platformer-male-32x64) by MoikMellah. CC0 Licensed.
 
 ## References
+None
 
 ## Future Development
+None
 
-## Created by
+## Extra Credit
+None
+
+## Created by 
+Jason Francis
