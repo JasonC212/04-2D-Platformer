@@ -1,4 +1,4 @@
-# 2D-Platformer-Character
+# 2D-Platformer
 
 A somewhat-generic character (including animations and state machine) appropriate for a 2D platformer built in Godot. Includes test level.
 
