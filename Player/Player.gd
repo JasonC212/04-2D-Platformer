@@ -24,6 +24,10 @@ var should_direction_flip = true # wether or not player controls (left/right) ca
 
 
 func _physics_process(_delta):
+	
+	if position.y > 1500:
+		get_tree().change_scene("res://Level/Lost.tscn")
+	
 	velocity.x = clamp(velocity.x,-max_move,max_move)
 		
 	if should_direction_flip:
@@ -79,6 +83,9 @@ func get_left_collider():
 func set_wall_raycasts(is_enabled):
 	$Wall/Left.enabled = is_enabled
 	$Wall/Right.enabled = is_enabled
+
+func bleed():
+	$Bleed.emitting = true
 
 func die():
 	queue_free()
