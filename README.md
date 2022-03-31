@@ -49,6 +49,7 @@ Music for Levels
 
 Win and Lose endsceens shaders with fitting music(horror for lost) (electro-beat for win)
 
+## References
 The player sprite is adaptated from [MV Platformer Male](https://opengameart.org/content/mv-platformer-male-32x64) by MoikMellah. CC0 Licensed.
 
 Shader for title Screen https://godotshaders.com/shader/pretty-hip/
@@ -72,10 +73,6 @@ WIN ENDING https://freesound.org/people/frankum/sounds/384468/
 The terrain spritemap is from the [Abstract Platformer package](https://kenney.nl/assets/abstract-platformer) available at Kenney.nl.
 
 The turret was created by Jason Francis and used with permission.
-
-
-## References
-none
 
 ## Future Development
 None planned 
