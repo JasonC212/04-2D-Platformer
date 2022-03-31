@@ -19,7 +19,7 @@ func update_health(h):
 	health += h
 	HUD.find_node("Health").text = "Health : " + str(health)
 	if health <= 0:
-		get_tree().change_scene("res://Level/Lost.tscn")
+		var _memes = get_tree().change_scene("res://Level/Lost.tscn")
 
 func shoot_play():
 	var shoot = get_node_or_null("/root/Game/Shoot")

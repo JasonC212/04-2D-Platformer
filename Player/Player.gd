@@ -26,7 +26,7 @@ var should_direction_flip = true # wether or not player controls (left/right) ca
 func _physics_process(_delta):
 	
 	if position.y > 1500:
-		get_tree().change_scene("res://Level/Lost.tscn")
+		var _memes = get_tree().change_scene("res://Level/Lost.tscn")
 	
 	velocity.x = clamp(velocity.x,-max_move,max_move)
 		
