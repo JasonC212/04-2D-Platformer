@@ -2,7 +2,7 @@
 
 Caver is a 2d platformer where you try to escape underground caves and their hazards while collecting coins along the way. There are 3 levels and 
 mutiple coins to collect and enimies to avoid. Health is tracked from one level to the next so try not to get shot! 1000 points are added for getting to the end. 
-Each level gets more complex. 
+Each level gets more complex. Remember that you can double jump and wall jump.
 
 Have fun!
 
